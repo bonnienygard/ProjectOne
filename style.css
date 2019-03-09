@@ -20,10 +20,11 @@ header {
     font-size: 70px;
     font-family: 'Reenie Beanie', cursive;
 }
-header p{
+.header p{
     font-style: italic;
+    font-size: 50px;
 }
-h2{
+.aboutus h2{
     color:white;
     font-family: 'Reenie Beanie', cursive;
     font-size: 50px;
@@ -33,7 +34,7 @@ p{
     font-family: 'Reenie Beanie', cursive;
     font-size: 20px;
 }
-h3{
+.aboutus h3{
     color:white;
     font-family: 'Reenie Beanie', cursive;
     font-size: 50px;
@@ -66,4 +67,21 @@ h1{
 }
 .header p{
     font-size: 50px;
+}
+.team h2{
+    font-size:40px;
+    color: white;
+    font-family: 'Reenie Beanie', cursive;
+}
+.team h3{
+    font-size:30px;
+    color: white;
+    font-family: 'Reenie Beanie', cursive;
+}
+.team i{
+    background-color: white;
+    font-size:80px;
+    padding:25px 20px;
+    border-radius: 100%;
+    text-align: center;
 }
