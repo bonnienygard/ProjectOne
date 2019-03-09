@@ -1,11 +1,6 @@
 body{
     background-color: #00261a;
 }
-
-.nav-link{
-    font-weight: normal;
-    color: blue;
-}
 .nav-link:hover{
     font-weight: bolder;
     background-color: #eee
@@ -39,7 +34,7 @@ p{
     font-family: 'Reenie Beanie', cursive;
     font-size: 50px;
 }
-span{
+.aboutus span{
     color:white;
     font-family: 'Reenie Beanie', cursive;
     font-size: 30px;
@@ -57,7 +52,7 @@ hr{
     padding:25px 20px;
     /*change color*/
     color:#fff;
-    background-color: violet;
+    background-color: #9900cc;
     
     /*resize container of icon*/
     border-radius: 60%
@@ -65,8 +60,11 @@ hr{
 h1{
     font-size: 70px;
 }
-.header p{
-    font-size: 50px;
+.d-flex p{
+    font-size: 40px;
+}
+.team{
+    text-align: center;
 }
 .team h2{
     font-size:40px;
@@ -80,8 +78,66 @@ h1{
 }
 .team i{
     background-color: white;
+    height: 125px;
+    width: 120px;
     font-size:80px;
     padding:25px 20px;
     border-radius: 100%;
     text-align: center;
+}
+.getinvolved h3{
+    color:white;
+    font-family: 'Reenie Beanie', cursive;
+}
+.getinvolved h2{
+    color:white;
+    font-family: 'Reenie Beanie', cursive;   
+    text-align:center;
+    font-size:40px;
+    
+}
+.getinvolved i{
+    background-color: white;
+    height: 100px;
+    width: 101px;
+    font-size:80px;
+    padding: 20px 15px;
+    border-radius: 100%;
+    font-size:60px;
+}
+.options{
+    background-color: #730099;
+    padding: 30px;
+    margin:10 px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    margin-top:30px;
+    text-align: center;
+}
+/*get involved*/
+.getinvolved {
+    background-color: #004d00;
+    padding: 0px 0 50px;
+    margin-top:50px;
+    width:100%;
+    margin-bottom: 50px;
+}
+.contact h1{
+    color:white;
+    font-family: 'Reenie Beanie', cursive;
+}
+.team h1{
+    color:white;
+    font-family: 'Reenie Beanie', cursive;
+    font-size:50px;
+}
+.contact button{
+    margin-top: 20px;
+}
+.With textarea{
+    height:100px;
+}
+.contact .btn{
+    background-color: #730099;
+    width:100%;
 }
